@@ -8,9 +8,8 @@ sonarqube-scanner({
       'sonar.login': "6c48a89abd5ca4aae1cb77c5b7773882c6ec4a7c",
       'sonar.projectVersion':'1.0'
       'sonar.language':'js',
-      'sonar.sources': 'dist',
+      'sonar.sources': '.',
     //'sonar.tests': 'specs'
     }
-  },
-  () => process.exit()
-)
+  }, () => {});
+
