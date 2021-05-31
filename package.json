@@ -8,9 +8,10 @@
     "start": "node ./app.js",
     "dev": "nodemon ./app.js",
     "sonar": "node ./sonar-project.js"
-    "test": "newman run ./tests/api-tests.postman.json -e ./tests/env-api-tests.postman.json",
     "stop": "lsof -ti :3000 | xargs kill",
     "mongo:stop": "docker stop realworld-mongo && docker rm realworld-mongo"
+    "test": "newman run ./tests/api-tests.postman.json -e ./tests/env-api-tests.postman.json",
+
   },
   "repository": {
     "type": "git",
