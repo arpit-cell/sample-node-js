@@ -3,12 +3,10 @@
   "version": "1.0.0",
   "description": "explain ",
   "main": "app.js",
-  "publishConfig":
-  {
+  "publishConfig": {
     "registry": "http://34.207.83.246:8081/repository/npm-repo/"
   }
-  "scripts": 
-  {
+  "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
