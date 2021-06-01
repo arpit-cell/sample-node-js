@@ -5,7 +5,8 @@ sonarqubeScanner({
     options: {
       'sonar.projectName': 'nodejs-sample',
       'sonar.projectDescription': 'My first CI/CD app',
-      'sonar.login': "6c48a89abd5ca4aae1cb77c5b7773882c6ec4a7c",
+      'sonar.login': "admin",
+      'sonar.password': "admin",
       'sonar.projectVersion': '1.0',
       'sonar.language': 'js',
       'sonar.sourceEncoding': 'UTF-8',
